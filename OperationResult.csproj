@@ -6,8 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>OperationResult</Title>
+	<Version>1.0.0</Version>
     <Description> Represents the result of an operation, encapsulating success or failure state, optional data, a message, and an exception if applicable.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Amund-Fremming/OperationResult</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

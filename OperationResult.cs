@@ -5,7 +5,7 @@
     /// optional data, a message, and an exception if applicable.
     /// </summary>
     /// <param name="Data">Generic data on sucess.</param>
-    /// <param name="Message">Failure message to the enduser.</param>
+    /// <param name="Message">Descriptive message about the error.</param>
     /// <param name="Exception">Exception thrown, used maily for debugging.</param>
     public record OperationResult<T>(T? Data, string Message = "", Exception? Exception = null)
     {
